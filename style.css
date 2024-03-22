@@ -1,0 +1,2379 @@
+/********************************************** NAVIGATION BAR **********************************************/
+.navbar-nav .nav-link:hover{
+    color:rgba(255, 255, 255, 0.675)!important;
+}
+
+.navbar img {
+  height: 40px;
+}
+/********************************************** LANDING PAGE **********************************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+
+main{
+  width: 100vw;
+  overflow-x:hidden;
+}
+
+/************************************ WHATSAPP ICON *************************************************/
+
+
+
+  .heartbeat {
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+            animation: heartbeat 1.5s ease-in-out infinite both;
+  }
+  
+  @-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+/************************************ WHATSAPP ICON *************************************************/
+
+
+@media only screen and (min-width: 268px) and (max-width: 480px){
+/********************************************** NAVIGATION BAR **********************************************/
+.navbar-nav .nav-link:hover{
+  color:rgba(255, 255, 255, 0.675)!important;
+}
+.navbar{
+  width: 100vw;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+/********************************************** LANDING PAGE **********************************************/
+
+body {
+margin: 0;
+padding: 0;
+overflow-x:hidden;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+.section1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 50vh;
+width: 100vw
+}
+
+.section1 h1{
+margin: 0;
+font-size: 50px;
+color: #e1e1e103;
+background-image: url("cl.jpeg");
+background-repeat: repeat;
+-webkit-background-clip:text;
+background-clip:text;
+animation: animate 15s ease-in-out infinite;
+text-align: center;
+text-transform: uppercase;
+font-weight: 900;
+}
+
+@keyframes animate {
+  0%, 100% {
+    background-position: left top;
+  }
+  25%{
+    background-position: right bottom;
+   }
+  50% {
+    background-position: left bottom;
+  }
+  75% {
+    background-position: right top;
+  }   
+}
+
+.section1 h2{
+  font-size:14px;
+}
+
+.background-video0 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 50vh;
+object-fit: cover;
+z-index: -1;
+}
+
+/********************************************** SECTION ONE 1 *********************************************/
+
+/***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+#systemtile{
+height: 120vh;
+width: 100vw;
+}
+.tile .img-fluid{
+  height:40vh;
+}
+
+/***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+
+
+/***************************************** SECTION THREE 3 WHY *****************************/
+
+#why{
+height: 130vh;
+}
+
+#why ul li{
+font-size: 15px;
+}
+
+/***************************************** SECTION THREE 3 WHY *************************/
+/***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+#performance{
+ height: 100vh;
+  width: 100vw;
+}
+
+
+/***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+
+
+/********************************************** SECTION FOUR 4 ABOUT US************************************ */
+@keyframes moveBackground {
+0%, 100% {
+  background-position: center 0;
+}
+50% {
+  background-position: center 50px;
+}
+}
+
+.section2 {
+height: 320vh;
+width: 100vw;
+background-image: url(bg.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+animation: moveBackground 5s infinite alternate; 
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 100vw;
+  
+}
+
+
+.team{
+  width: 90vw;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background-image: linear-gradient(171.8deg, rgb(1, 27, 36) 13.5%, rgba(6,57,84,1) 78.6%); 
+}
+
+.team img{
+  margin: 10px;
+  
+  width:50vw;
+}
+
+.team p{
+  width: 80vw;
+  font-size: 14px;
+}
+
+/***************************************** SECTION FOUR 4 ABOUT US *************************/
+
+
+/***************************************** SECTION FIVE 5 FAQ**************************************/
+#FAQ {
+height: 200vh;
+position: relative;
+
+}
+
+.background-video3 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 200vh;
+object-fit: cover;
+z-index: -1;
+}
+
+#faq{
+height:50vh;
+width: 80vw;
+}
+
+.accordion {
+background-color: #eeeeee00;
+color: #eaeaea;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+
+}
+
+.active, .accordion:hover {
+background-color: #cccccc00;
+}
+
+.accordion:after {
+content: '\002B';
+color: #f2f2f2;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2212";
+}
+
+.panel {
+padding: 0 18px;
+background-color: rgba(255, 255, 255, 0);
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+
+}
+
+
+/***************************************** SECTION FIVE 5 FAQ**************************************/
+/***************************************** SECTION SIX 6 CONTACT **************************************/
+#ready{
+  height: 200vh;
+}
+.btnn {
+
+/* ... */
+position: relative;
+display: inline-block;
+padding: 20px 20px;
+margin: 20px 0px;
+width: 80vw;
+background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+color: #fff; 
+border: none;
+border-radius: 20px;
+text-align: center;
+text-decoration: none;
+font-size: 16px; 
+cursor: pointer;
+box-shadow: 0 0 30px rgba(0, 123, 255, 0.8); 
+}
+
+.btnn::before {
+content: "";
+position: absolute;
+top: -5px;
+left: -5px;
+right: -5px;
+bottom: -5px;
+border: 2px solid #007bff; 
+border-radius: 10px; 
+opacity: 0;
+z-index: -1;
+transition: opacity 0.3s ease-in-out;
+
+}
+
+.btnn:hover::before {
+opacity: 1;
+
+}
+/***************************************** SECTION SIX 6 CONTACT **************************************/
+#contact{
+  height: 100vh;
+}
+
+
+/***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+#newsletter{
+height: 100vh;
+}
+
+.newsletter{
+width: 90vw;
+height: 90vh;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+border-radius: 50px;
+}
+
+.newsletter img{
+  
+  padding-bottom: 20px;
+  width:40vw;
+}
+
+.newsletter p{
+  
+  padding-bottom: 10px;
+  width:90vw;
+}
+
+.newsletter .btn{
+  width:50vw;
+}
+
+.alert {
+display: inline-block;
+font-size: 22px;
+color: rgb(128, 212, 131);
+margin: 0 auto;
+margin-bottom: 5px;
+}
+/***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+
+
+/************************************ WHATSAPP ICON *************************************************/
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 50px;
+  color: #25d366;
+  cursor: pointer;
+}
+.whatsapp-icon:hover{
+  text-shadow: 0 0 40px rgba(160, 160, 160, 0.818);
+  scale:1.1;
+  transition:1s;
+}
+
+.foot{
+  width: 100vw;
+}
+
+.foot p{
+  font-size: 16px;
+  padding-left: 30px ;
+}
+/************************************ WHATSAPP ICON *************************************************/
+
+
+}
+/*####################################################################################################*/
+
+/*####################################################################################################*/
+
+/*####################################################################################################*/
+
+/*####################################################################################################*/
+
+/*####################################################################################################*/
+
+@media only screen and (min-width: 481px) and (max-width: 761px) {
+  /********************************************** NAVIGATION BAR **********************************************/
+.navbar-nav .nav-link:hover{
+  color:rgba(255, 255, 255, 0.675)!important;
+}
+.navbar{
+  width: 100vw;
+}
+
+.tile .img-fluid {
+  height: 40px;
+}
+
+/********************************************** LANDING PAGE **********************************************/
+
+body {
+margin: 0;
+padding: 0;
+overflow-x:hidden;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+.section1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 50vh;
+width: 100vw
+}
+
+.section1 h1{
+margin: 0;
+font-size: 70px;
+color: #e1e1e103;
+background-image: url("cl.jpeg");
+background-repeat: repeat;
+-webkit-background-clip:text;
+background-clip:text;
+animation: animate 15s ease-in-out infinite;
+text-align: center;
+text-transform: uppercase;
+font-weight: 900;
+}
+
+@keyframes animate {
+  0%, 100% {
+    background-position: left top;
+  }
+  25%{
+    background-position: right bottom;
+   }
+  50% {
+    background-position: left bottom;
+  }
+  75% {
+    background-position: right top;
+  }   
+}
+
+.section1 h2{
+  font-size:16px;
+}
+
+.background-video0 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 50vh;
+object-fit: cover;
+z-index: -1;
+}
+
+/********************************************** SECTION ONE 1 *********************************************/
+
+/***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+#systemtile{
+height: 100vh;
+width: 100vw;
+}
+
+.tile .img-fluid{
+  height:50vh;
+}
+/***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+
+
+/***************************************** SECTION THREE 3 WHY *****************************/
+
+#why{
+height: 100vh;
+padding: 0px 20px;
+}
+
+#why ul li{
+font-size: 16px;
+}
+
+/***************************************** SECTION THREE 3 WHY *************************/
+/***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+#performance{
+ height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+/***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+
+
+/********************************************** SECTION FOUR 4 ABOUT US************************************ */
+@keyframes moveBackground {
+0%, 100% {
+  background-position: center 0;
+}
+50% {
+  background-position: center 50px;
+}
+}
+
+.section2 {
+height: 300vh;
+width: 100vw;
+background-image: url(bg.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+animation: moveBackground 5s infinite alternate; 
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 100vw;
+  
+}
+
+
+.team{
+  width: 90vw;
+  height: auto;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background-image: linear-gradient(171.8deg, rgb(1, 27, 36) 13.5%, rgba(6,57,84,1) 78.6%); 
+}
+
+.team img{
+  margin: 10px;
+  
+  width:50vw;
+}
+
+.team p{
+  width: 80vw;
+  font-size: 15px;
+}
+/***************************************** SECTION FOUR 4 ABOUT US *************************/
+
+
+/***************************************** SECTION FIVE 5 FAQ**************************************/
+#FAQ {
+height: 120vh;
+position: relative;
+display:flex;
+flex-direction: column;
+}
+
+.background-video3 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 120vh;
+object-fit: cover;
+z-index: -1;
+}
+
+#faq{
+height:40vh;
+width: 70vw;
+}
+
+.accordion {
+background-color: #eeeeee00;
+color: #eaeaea;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 16px;
+transition: 0.4s;
+
+}
+
+.active, .accordion:hover {
+background-color: #cccccc00;
+}
+
+.accordion:after {
+content: '\002B';
+color: #f2f2f2;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2212";
+}
+
+.panel {
+padding: 0 18px;
+background-color: rgba(255, 255, 255, 0);
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+
+}
+
+
+/***************************************** SECTION FIVE 5 FAQ**************************************/
+/***************************************** SECTION SIX 6 CONTACT **************************************/
+
+#ready{
+  height: 150vh;
+}
+
+.btnn {
+
+/* ... */
+position: relative;
+display: inline-block;
+padding: 30px 20px;
+margin: 20px 0px;
+width:80vw;
+background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+color: #fff; 
+border: none;
+border-radius: 20px;
+text-align: center;
+text-decoration: none;
+font-size: 20px; 
+cursor: pointer;
+box-shadow: 0 0 30px rgba(0, 123, 255, 0.8); 
+}
+
+.btnn::before {
+content: "";
+position: absolute;
+top: -5px;
+left: -5px;
+right: -5px;
+bottom: -5px;
+border: 2px solid #007bff; 
+border-radius: 10px; 
+opacity: 0;
+z-index: -1;
+transition: opacity 0.3s ease-in-out;
+
+}
+
+.btnn:hover::before {
+opacity: 1;
+
+}
+/***************************************** SECTION SIX 6 CONTACT **************************************/
+#contact{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact .btnn{
+  width: 80vw;
+  font-size: 20px;
+}
+
+
+/***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+#newsletter{
+height: 100vh;
+}
+
+.newsletter{
+width: 90vw;
+height: 70vh;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+border-radius: 50px;
+}
+
+.newsletter img{
+
+  padding-bottom: 30px;
+  width:40vw;
+}
+
+.newsletter p{
+  font-size: 1rem;
+  padding-bottom: 10px;
+  width:90vw;
+}
+
+
+
+.alert {
+display: inline-block;
+font-size: 22px;
+color: rgb(128, 212, 131);
+margin: 0 auto;
+margin-bottom: 5px;
+}
+/***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+
+
+/************************************ WHATSAPP ICON *************************************************/
+.whatsapp-icon {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  font-size: 60px;
+  color: #25d366;
+  cursor: pointer;
+}
+.whatsapp-icon:hover{
+  text-shadow: 0 0 40px rgba(160, 160, 160, 0.818);
+  scale:1.1;
+  transition:1s;
+}
+
+.foot{
+  width: 100vw;
+}
+
+.foot p{
+  font-size: 18px;
+  padding-left: 30px !important;
+}
+/************************************ WHATSAPP ICON *************************************************/  
+}
+
+
+/*####################################################################################################*/
+
+/*####################################################################################################*/
+
+/*####################################################################################################*/
+
+/*####################################################################################################*/
+
+/*####################################################################################################*/
+
+@media only screen and (min-width: 761px) and (max-width: 991px) {
+  /********************************************** NAVIGATION BAR **********************************************/
+.navbar-nav .nav-link:hover{
+  color:rgba(255, 255, 255, 0.675)!important;
+}
+.navbar{
+  width: 100vw;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+/********************************************** LANDING PAGE **********************************************/
+
+body {
+margin: 0;
+padding: 0;
+overflow-x:hidden;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+.section1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 50vh;
+width: 100vw
+}
+
+.section1 h1{
+margin: 0;
+font-size: 100px;
+color: #e1e1e103;
+background-image: url("cl.jpeg");
+background-repeat: repeat;
+-webkit-background-clip:text;
+background-clip:text;
+animation: animate 15s ease-in-out infinite;
+text-align: center;
+text-transform: uppercase;
+font-weight: 900;
+}
+
+@keyframes animate {
+  0%, 100% {
+    background-position: left top;
+  }
+  25%{
+    background-position: right bottom;
+   }
+  50% {
+    background-position: left bottom;
+  }
+  75% {
+    background-position: right top;
+  }   
+}
+
+.section1 h2{
+  font-size:20px;
+}
+
+.background-video0 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 50vh;
+object-fit: cover;
+z-index: -1;
+}
+
+/********************************************** SECTION ONE 1 *********************************************/
+
+/***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+#systemtile{
+height: 110vh;
+width: 100vw;
+}
+
+.tile .img-fluid{
+  height:60vh;
+}
+/***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+
+
+/***************************************** SECTION THREE 3 WHY *****************************/
+
+#why{
+height: 100vh;
+padding: 0px 20px;
+}
+
+#why ul li{
+font-size: 18px;
+}
+
+/***************************************** SECTION THREE 3 WHY *************************/
+/***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+#performance{
+ height: 100vh;
+  width: 100vw;
+}
+
+
+/***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+
+
+/********************************************** SECTION FOUR 4 ABOUT US************************************ */
+@keyframes moveBackground {
+0%, 100% {
+  background-position: center 0;
+}
+50% {
+  background-position: center 50px;
+}
+}
+
+.section2 {
+height: 310vh;
+width: 100vw;
+background-image: url(bg.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+animation: moveBackground 5s infinite alternate; 
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 100vw;
+  
+}
+
+
+.team{
+  width: 90vw;
+  height: auto;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background-image: linear-gradient(171.8deg, rgb(1, 27, 36) 13.5%, rgba(6,57,84,1) 78.6%); 
+}
+
+.team img{
+  margin: 10px;
+  
+  width:50vw;
+}
+
+.team p{
+  width: 80vw;
+  font-size: 16px;
+}
+
+/***************************************** SECTION FOUR 4 ABOUT US *************************/
+
+
+/***************************************** SECTION FIVE 5 FAQ**************************************/
+#FAQ {
+height: 200vh;
+position: relative;
+display:flex;
+flex-direction: column;
+}
+
+.background-video3 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 200vh;
+object-fit: cover;
+z-index: -1;
+}
+
+#faq{
+height:80vh;
+width: 80vw;
+}
+
+.accordion {
+background-color: #eeeeee00;
+color: #eaeaea;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 20px;
+transition: 0.4s;
+
+}
+
+.active, .accordion:hover {
+background-color: #cccccc00;
+}
+
+.accordion:after {
+content: '\002B';
+color: #f2f2f2;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2212";
+}
+
+.panel {
+padding: 0 18px;
+background-color: rgba(255, 255, 255, 0);
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+
+}
+
+
+/***************************************** SECTION FIVE 5 FAQ**************************************/
+/***************************************** SECTION SIX 6 CONTACT **************************************/
+
+#ready{
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnn {
+
+/* ... */
+position: relative;
+display: inline-block;
+padding: 40px 30px;
+margin: 20px 0px;
+width:80vw;
+background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+color: #fff; 
+border: none;
+border-radius: 20px;
+text-align: center;
+text-decoration: none;
+font-size: 24px; 
+cursor: pointer;
+box-shadow: 0 0 30px rgba(0, 123, 255, 0.8); 
+}
+
+.btnn::before {
+content: "";
+position: absolute;
+top: -5px;
+left: -5px;
+right: -5px;
+bottom: -5px;
+border: 2px solid #007bff; 
+border-radius: 10px; 
+opacity: 0;
+z-index: -1;
+transition: opacity 0.3s ease-in-out;
+
+}
+
+.btnn:hover::before {
+opacity: 1;
+
+}
+/***************************************** SECTION SIX 6 CONTACT **************************************/
+#contact{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact .btnn{
+  
+  font-size: 24px;
+}
+
+
+/***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+#newsletter{
+height: 100vh;
+}
+
+.newsletter{
+width: 90vw;
+height: 50vh;
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+border-radius: 50px;
+}
+
+.newsletter img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width:35vw;
+}
+
+.newsletter p{
+  font-size: 1.4rem;
+  padding-bottom: 10px;
+  
+}
+
+
+
+.alert {
+display: inline-block;
+font-size: 22px;
+color: rgb(128, 212, 131);
+margin: 0 auto;
+margin-bottom: 5px;
+}
+/***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+
+
+/************************************ WHATSAPP ICON *************************************************/
+.whatsapp-icon {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 70px;
+  color: #25d366;
+  cursor: pointer;
+}
+.whatsapp-icon:hover{
+  text-shadow: 0 0 40px rgba(160, 160, 160, 0.818);
+  scale:1.1;
+  transition:1s;
+}
+
+.foot{
+  width: 100vw;
+}
+
+.foot p{
+  font-size: 20px;
+  padding-left: 30px !important;
+}
+/************************************ WHATSAPP ICON *************************************************/  
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+/********************************************** NAVIGATION BAR ********************************************/
+.navbar-nav .nav-link:hover{
+  color:rgba(255, 255, 255, 0.675)!important;
+}
+.navbar{
+  width: 100vw;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+.nav-item a{
+  font-size: 1.2rem;
+}
+
+/********************************************** LANDING PAGE **********************************************/
+
+body {
+margin: 0;
+padding: 0;
+overflow-x:hidden;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+.section1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100vw
+}
+
+.section1 h1{
+margin: 0;
+font-size: 150px;
+color: #e1e1e103;
+background-image: url("cl.jpeg");
+background-repeat: repeat;
+-webkit-background-clip:text;
+background-clip:text;
+animation: animate 15s ease-in-out infinite;
+text-align: center;
+text-transform: uppercase;
+font-weight: 900;
+}
+
+@keyframes animate {
+  0%, 100% {
+    background-position: left top;
+  }
+  25%{
+    background-position: right bottom;
+   }
+  50% {
+    background-position: left bottom;
+  }
+  75% {
+    background-position: right top;
+  }   
+}
+
+.section1 h2{
+  font-size:32px;
+}
+
+.background-video0 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+object-fit: cover;
+z-index: -1;
+}
+
+/********************************************** SECTION ONE 1 *********************************************/
+
+/***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+#systemtile{
+height: 110vh;
+width: 100vw;
+}
+
+.tile .img-fluid{
+  height:65vh;
+}
+/***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+
+
+/***************************************** SECTION THREE 3 WHY *****************************/
+
+#why{
+height: 100vh;
+padding: 50px 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#why ul li{
+font-size: 22px;
+}
+
+/***************************************** SECTION THREE 3 WHY *************************/
+/***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+#performance{
+ height: 100vh;
+  width: 100vw;
+  display: flex;
+align-items: center;
+justify-content: center;
+padding: 0px 50px;
+}
+
+
+
+
+/***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+
+
+/********************************************** SECTION FOUR 4 ABOUT US************************************ */
+@keyframes moveBackground {
+0%, 100% {
+  background-position: center 0;
+}
+50% {
+  background-position: center 50px;
+}
+}
+
+.section2 {
+height: 200vh;
+width: 100vw;
+background-image: url(bg.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+animation: moveBackground 5s infinite alternate; 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 100vw;
+  
+}
+
+
+.team{
+  width: 80vw;
+  height: 50vh;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  background-image: linear-gradient(171.8deg, rgb(1, 27, 36) 13.5%, rgba(6,57,84,1) 78.6%); 
+}
+
+.team img{
+  margin: 30px;
+  
+  width:30vw;
+}
+
+.team p{
+  width: 40vw;
+}
+
+
+/***************************************** SECTION FOUR 4 ABOUT US *************************/
+
+
+/***************************************** SECTION FIVE 5 FAQ**************************************/
+#FAQ {
+height: 100vh;
+position: relative;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.background-video3 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+object-fit: cover;
+z-index: -1;
+}
+
+.fq{
+  display:flex;
+flex-direction: row;
+}
+
+.f{
+  width:50vw;
+}
+
+#faq{
+height:50vh;
+width: 40vw;
+}
+
+.accordion {
+background-color: #eeeeee00;
+color: #eaeaea;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 20px;
+transition: 0.4s;
+
+}
+
+.active, .accordion:hover {
+background-color: #cccccc00;
+}
+
+.accordion:after {
+content: '\002B';
+color: #f2f2f2;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2212";
+}
+
+.panel {
+padding: 0 18px;
+background-color: rgba(255, 255, 255, 0);
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+
+}
+
+
+/***************************************** SECTION FIVE 5 FAQ**************************************/
+/***************************************** SECTION SIX 6 CONTACT **************************************/
+
+#ready{
+  height: 150vh;
+}
+
+.btnn {
+
+/* ... */
+position: relative;
+display: inline-block;
+padding: 30px 30px;
+width:35vw;
+margin:30px 10px;
+background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+color: #fff; 
+border: none;
+border-radius: 20px;
+text-align: center;
+text-decoration: none;
+font-size: 24px; 
+cursor: pointer;
+box-shadow: 0 0 30px rgba(0, 123, 255, 0.8); 
+}
+
+.btnn::before {
+content: "";
+position: absolute;
+top: -5px;
+left: -5px;
+right: -5px;
+bottom: -5px;
+border: 2px solid #007bff; 
+border-radius: 10px; 
+opacity: 0;
+z-index: -1;
+transition: opacity 0.3s ease-in-out;
+
+}
+
+.btnn:hover::before {
+opacity: 1;
+
+}
+/***************************************** SECTION SIX 6 CONTACT **************************************/
+#contact{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact .btnn{
+  
+  font-size: 24px;
+}
+
+
+/***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+#newsletter{
+height: 100vh;
+}
+
+.newsletter{
+width: 90vw;
+height: 50vh;
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+border-radius: 50px;
+}
+
+.newsletter img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width:40vw;
+}
+
+.newsletter p{
+  font-size: 1.4rem;
+  padding-bottom: 10px;
+ 
+}
+
+
+
+.alert {
+display: inline-block;
+font-size: 22px;
+color: rgb(128, 212, 131);
+margin: 0 auto;
+margin-bottom: 5px;
+}
+/***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+
+
+/************************************ WHATSAPP ICON *************************************************/
+.whatsapp-icon {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 70px;
+  color: #25d366;
+  cursor: pointer;
+}
+.whatsapp-icon:hover{
+  text-shadow: 0 0 40px rgba(160, 160, 160, 0.818);
+  scale:1.1;
+  transition:1s;
+}
+
+.foot{
+  width: 100vw;
+}
+
+.foot p{
+  font-size: 22px;
+  padding-left: 30px !important;
+}
+/************************************ WHATSAPP ICON *************************************************/  
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1480px){
+  /********************************************** NAVIGATION BAR ********************************************/
+  .navbar-nav .nav-link:hover{
+    color:rgba(255, 255, 255, 0.675)!important;
+  }
+  .navbar{
+    width: 100vw;
+  }
+  
+  .navbar img {
+    height: 40px;
+  }
+
+  .nav-item a{
+    font-size: 1.2rem;
+  }
+  
+  /********************************************** LANDING PAGE **********************************************/
+  
+  body {
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  }
+  
+  .section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw
+  }
+  
+  .section1 h1{
+  margin: 0;
+  font-size: 160px;
+  color: #e1e1e103;
+  background-image: url("cl.jpeg");
+  background-repeat: repeat;
+  -webkit-background-clip:text;
+  background-clip:text;
+  animation: animate 15s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  }
+  
+  @keyframes animate {
+    0%, 100% {
+      background-position: left top;
+    }
+    25%{
+      background-position: right bottom;
+     }
+    50% {
+      background-position: left bottom;
+    }
+    75% {
+      background-position: right top;
+    }   
+  }
+  
+  .section1 h2{
+    font-size:36px;
+  }
+  
+  .background-video0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  }
+  
+  /********************************************** SECTION ONE 1 *********************************************/
+  
+  /***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+  #systemtile{
+  height: 150vh;
+  width: 100vw;
+  }
+  
+  .tile .img-fluid{
+    height:80vh;
+  }
+  /***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+  
+  
+  /***************************************** SECTION THREE 3 WHY *****************************/
+  
+  #why{
+  height: 120vh;
+  padding: 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  #why ul li{
+  font-size: 22px;
+  }
+  
+  /***************************************** SECTION THREE 3 WHY *************************/
+  /***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+  #performance{
+   height: 100vh;
+    width: 100vw;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+  }
+  
+ 
+  
+
+  /***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+  
+  
+ /********************************************** SECTION FOUR 4 ABOUT US************************************ */
+@keyframes moveBackground {
+  0%, 100% {
+    background-position: center 0;
+  }
+  50% {
+    background-position: center 50px;
+  }
+}
+
+.section2 {
+  height: 300vh;
+  width: 100vw;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-animation: moveBackground 5s infinite alternate; /* WebKit-based browsers */
+  animation: moveBackground 5s infinite alternate; 
+  display: -webkit-flex; /* WebKit-based browsers */
+  display: flex;
+  -webkit-align-items: center; /* WebKit-based browsers */
+  align-items: center;
+  
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 100vw;
+  
+}
+
+
+.team{
+  width: 80vw;
+  height: 70vh;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  background-image: linear-gradient(171.8deg, rgb(1, 27, 36) 13.5%, rgba(6,57,84,1) 78.6%); 
+}
+
+.team img{
+  margin: 30px;
+  
+  width:30vw;
+}
+
+.team p{
+  width: 40vw;
+}
+
+/***************************************** SECTION FOUR 4 ABOUT US *************************/
+
+  
+  
+  /***************************************** SECTION FIVE 5 FAQ**************************************/
+  #FAQ {
+  height: 100vh;
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .background-video3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  }
+
+  .fq{
+    display:flex;
+  flex-direction: row;
+  }
+
+  .f{
+    width:50vw;
+  }
+  
+  #faq{
+  height:70vh;
+  width: 40vw;
+  }
+  
+  .accordion {
+  background-color: #eeeeee00;
+  color: #eaeaea;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  
+  }
+  
+  .active, .accordion:hover {
+  background-color: #cccccc00;
+  }
+  
+  .accordion:after {
+  content: '\002B';
+  color: #f2f2f2;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  }
+  
+  .active:after {
+  content: "\2212";
+  }
+  
+  .panel {
+  padding: 0 18px;
+  background-color: rgba(255, 255, 255, 0);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  
+  }
+  
+  
+  /***************************************** SECTION FIVE 5 FAQ**************************************/
+  /***************************************** SECTION SIX 6 CONTACT **************************************/
+  
+  #ready{
+    height: 250vh;
+  }
+  
+  .btnn {
+  
+  /* ... */
+  position: relative;
+  display: inline-block;
+  padding: 40px 30px;
+  margin: 30px 10px;
+  background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%); 
+  color: #fff; 
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px; 
+  cursor: pointer;
+  box-shadow: 0 0 50px rgba(0, 123, 255, 0.8); 
+  width: 35vw;
+  }
+  
+  .btnn::before {
+  content: "";
+  position: absolute;
+  border-radius: 10px; 
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+  
+  }
+  
+  .btnn:hover::before {
+  opacity: 1;
+  
+ 
+ 
+  }
+  /***************************************** SECTION SIX 6 CONTACT **************************************/
+  #contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #contact .btnn{
+    
+    font-size: 24px;
+  }
+  
+  
+  /***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+  #newsletter{
+  height: 100vh;
+  }
+  
+  .newsletter{
+  width: 70vw;
+  height: 60vh;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+  border-radius: 50px;
+  }
+  
+  .newsletter img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width:30vw;
+  }
+  
+  .newsletter p{
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+    
+  }
+  
+  
+  
+  .alert {
+  display: inline-block;
+  font-size: 22px;
+  color: rgb(128, 212, 131);
+  margin: 0 auto;
+  margin-bottom: 5px;
+  }
+  /***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+  
+  
+  /************************************ WHATSAPP ICON *************************************************/
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 70px;
+    color: #25d366;
+    cursor: pointer;
+  }
+  .whatsapp-icon:hover{
+    text-shadow: 0 0 40px rgba(160, 160, 160, 0.818);
+    scale:1.1;
+    transition:1s;
+  }
+  
+  .foot{
+    width: 100vw;
+  }
+  
+  .foot p{
+    font-size: 22px;
+    padding-left: 30px !important;
+  }
+  /************************************ WHATSAPP ICON *************************************************/  
+}
+@media only screen and (min-width: 1481px){
+    /********************************************** NAVIGATION BAR ********************************************/
+  .navbar-nav .nav-link:hover{
+    color:rgba(255, 255, 255, 0.675)!important;
+  }
+  .navbar{
+    width: 100vw;
+  }
+  
+  .navbar img {
+    height: 40px;
+  }
+
+  .nav-item a{
+    font-size: 1.2rem;
+  }
+  
+  /********************************************** LANDING PAGE **********************************************/
+  
+  body {
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  }
+  
+  .section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw
+  }
+  
+  .section1 h1{
+  margin: 0;
+  font-size: 200px;
+  color: #e1e1e103;
+  background-image: url("cl.jpeg");
+  background-repeat: repeat;
+  -webkit-background-clip:text;
+  background-clip:text;
+  animation: animate 15s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  }
+  
+  @keyframes animate {
+    0%, 100% {
+      background-position: left top;
+    }
+    25%{
+      background-position: right bottom;
+     }
+    50% {
+      background-position: left bottom;
+    }
+    75% {
+      background-position: right top;
+    }   
+  }
+  
+  .section1 h2{
+    font-size:44px;
+  }
+  
+  .background-video0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  }
+  
+  /********************************************** SECTION ONE 1 *********************************************/
+  
+  /***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+  #systemtile{
+  height: 100vh;
+  width: 100vw;
+  }
+  
+  .tile .img-fluid{
+    height:70vh;
+  }
+  /***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
+  
+  
+  /***************************************** SECTION THREE 3 WHY *****************************/
+  
+  #why{
+  height: 100vh;
+  padding: 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  #why ul li{
+  font-size: 22px;
+  }
+  
+  /***************************************** SECTION THREE 3 WHY *************************/
+  /***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+  #performance{
+   height: 100vh;
+    width: 100vw;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+  }
+  
+ 
+  
+
+  /***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
+  
+  
+  /********************************************** SECTION FOUR 4 ABOUT US************************************ */
+@keyframes moveBackground {
+  0%, 100% {
+    background-position: center 0;
+  }
+  50% {
+    background-position: center 50px;
+  }
+}
+
+.section2 {
+  height: 240vh;
+  width: 100vw;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-animation: moveBackground 5s infinite alternate; /* WebKit-based browsers */
+  animation: moveBackground 5s infinite alternate; 
+  display: -webkit-flex; /* WebKit-based browsers */
+  display: flex;
+  -webkit-align-items: center; /* WebKit-based browsers */
+  align-items: center;
+  -webkit-justify-content: center; /* WebKit-based browsers */
+  justify-content: center;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 100vw;
+  
+}
+
+
+.team{
+  width: 80vw;
+  height: 70vh;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  background-image: linear-gradient(171.8deg, rgb(1, 27, 36) 13.5%, rgba(6,57,84,1) 78.6%); 
+}
+
+.team img{
+  margin: 30px;
+  
+  width:30vw;
+}
+
+.team p{
+  width: 40vw;
+}
+
+
+/***************************************** SECTION FOUR 4 ABOUT US *************************/
+
+  
+  
+  /***************************************** SECTION FIVE 5 FAQ**************************************/
+  #FAQ {
+  height: 100vh;
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .background-video3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  }
+
+  .fq{
+    display:flex;
+  flex-direction: row;
+  }
+
+  .f{
+    width:50vw;
+  }
+  
+  #faq{
+  height:50vh;
+  width: 30vw;
+  }
+  
+  .accordion {
+  background-color: #eeeeee00;
+  color: #eaeaea;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  
+  }
+  
+  .active, .accordion:hover {
+  background-color: #cccccc00;
+  }
+  
+  .accordion:after {
+  content: '\002B';
+  color: #f2f2f2;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  }
+  
+  .active:after {
+  content: "\2212";
+  }
+  
+  .panel {
+  padding: 0 18px;
+  background-color: rgba(255, 255, 255, 0);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  
+  }
+  
+  
+  /***************************************** SECTION FIVE 5 FAQ**************************************/
+  /***************************************** SECTION SIX 6 CONTACT **************************************/
+  
+  #ready{
+    height: 180vh;
+  }
+  
+  .btnn {
+  
+  /* ... */
+  position: relative;
+  display: inline-block;
+  padding: 40px 30px;
+  margin: 40px 10px;
+  width:35vw;
+  background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%); 
+  color: #fff; 
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px; 
+  cursor: pointer;
+  box-shadow: 0 0 30px rgba(0, 123, 255, 0.8); 
+  }
+  
+  .btnn::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border: 2px solid #007bff; 
+  border-radius: 10px; 
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+  
+  }
+  
+  .btnn:hover::before {
+  opacity: 1;
+  
+  }
+  /***************************************** SECTION SIX 6 CONTACT **************************************/
+  #contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #contact .btnn{
+    width: 50vw;
+    font-size: 24px; 
+  }
+  
+  
+  /***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+  #newsletter{
+  height: 100vh;
+  }
+  
+  .newsletter{
+  width: 90vw;
+  height: 60vh;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
+  border-radius: 50px;
+  }
+  
+  .newsletter img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width:35vw;
+  }
+  
+  .newsletter p{
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+    
+  }
+  
+  
+  
+  .alert {
+  display: inline-block;
+  font-size: 22px;
+  color: rgb(128, 212, 131);
+  margin: 0 auto;
+  margin-bottom: 5px;
+  }
+  /***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
+  
+  
+  /************************************ WHATSAPP ICON *************************************************/
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 90px;
+    color: #25d366;
+    cursor: pointer;
+  }
+  .whatsapp-icon:hover{
+    text-shadow: 0 0 40px rgba(160, 160, 160, 0.818);
+    scale:1.1;
+    transition:1s;
+  }
+  
+  .foot{
+    width: 100vw;
+  }
+  
+  .foot p{
+    font-size: 22px;
+    padding-left: 30px !important;
+  }
+  /************************************ WHATSAPP ICON *************************************************/  
+}
+
+
+
+
+
