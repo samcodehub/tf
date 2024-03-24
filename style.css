@@ -16,12 +16,27 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- 
+  font-family: "Lato", sans-serif;
+  font-style: bold;
 }
 
 main{
   width: 100vw;
   overflow-x:hidden;
+}
+
+.bg-black{
+  background-color: #0b0b0b!important;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#mc_embed_signup{
+  border-radius: 20px; box-shadow: 0 0 30px rgba(246, 2, 185, 0.563);
 }
 
 /************************************ WHATSAPP ICON *************************************************/
